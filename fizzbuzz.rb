@@ -2,13 +2,13 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 3 && int % 5
-  puts "Fizzbuzz"
+  return "Fizzbuzz"
   
   elsif int % 3
-  puts "Fizz"
+  return "Fizz"
   
   else int % 5
-  puts "Buzz"
+  return "Buzz"
     
   end
 end
